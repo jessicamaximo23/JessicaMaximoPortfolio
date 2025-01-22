@@ -17,13 +17,13 @@
             list-style-type: none; 
          }  
 
-         .mockups {
+         /* .mockups {
          position: relative;
          flex: 0 1 45%; 
          transition: transform 0.3s ease;
          margin-bottom: 20px;
          gap: 20%;
-         }
+         } */
 
          .mockups:hover {
             transform: scale(1.05);
@@ -33,7 +33,6 @@
             position: relative;
             overflow: hidden;
             border-radius: 10px;
-            height: 300px; 
             width: 100%;
          }
 
@@ -66,15 +65,7 @@
             opacity: 1;
          }
 
-         .stretched-link {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 10;
-         }
-
+      
          
       </style>
       <meta name="description" content="Jéssica - Portfolio">
@@ -298,8 +289,22 @@
             <div class="portfolio wow fadeInUp">
                <div class="row g-4 mt-3 portfolio-filter" style="position: relative; height: 900px;">
 
+
                   <div class="row">
                      <!-- 1 Project -->
+                     <div class="col-sm-6 col-lg-4 mockups">
+                        <div class="portfolio-box">
+                           <div class="portfolio-img">
+                              <img class="img-fluid" src="ScreenShots/EasyFilterApp.jpg" alt="">
+                              <div class="portfolio-overlay">
+                                 <a class="popup-ajax stretched-link" href="https://github.com/jessicamaximo23/EasyFilterapp" target="_blank"></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                  <div class="row">
+                     <!-- 2 Project -->
                      <div class="col-sm-6 col-lg-4 mockups">
                         <div class="portfolio-box">
                            <div class="portfolio-img">
@@ -311,7 +316,7 @@
                         </div>
                      </div>
                   
-                     <!-- 2 Project -->
+                     <!-- 3 Project -->
                      <div class="col-sm-6 col-lg-4 mockups">
                         <div class="portfolio-box">
                            <div class="portfolio-img">
@@ -323,7 +328,7 @@
                         </div>
                      </div>
                   
-                     <!-- 3Project -->
+                     <!-- 4 Project -->
                      <div class="col-sm-6 col-lg-4 mockups">
                         <div class="portfolio-box">
                            <div class="portfolio-img">
@@ -335,7 +340,7 @@
                         </div>
                      </div>
                  
-                   <!-- 4 Project -->
+                   <!-- 5 Project -->
                    <div class="col-sm-6 col-lg-4 mockups">
                      <div class="portfolio-box">
                         <div class="portfolio-img">
